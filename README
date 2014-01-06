@@ -7,7 +7,7 @@ If you have an "oscar" mouse please use wireshark and virtualbox with windows to
 I'm only rewrite Makefile to cmake.
 
 ########################################################
-If you have trable with QA4Mouse with library not found  exception you need add path to this library into ld path.
+If you have trable with QA4Mouse and library not found  exception you need add path to this library into ld path.
 
 On Ubuntu:
 If you have libgmouse in /usr/local/lib you need create file in /etc/ld.so.conf.d/ and add into file /usr/local/lib
