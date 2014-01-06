@@ -8,5 +8,5 @@ set(LIBGMOUSE_SRC control_a4.cpp dpis.cpp dips.h mouse_memory.cpp pairing.cpp sy
 add_library(gmouse SHARED ${LIBGMOUSE_SRC})
 target_link_libraries(gmouse ${LIBUSB_1_LIBRARIES})
 
-install(TARGETS gmouse DESTINATION lib/${PROJECT_NAME})
+install(TARGETS gmouse DESTINATION lib)
 install(FILES ${LIBGMOUSE_H} DESTINATION include/${PROJECT_NAME})

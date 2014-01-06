@@ -1,0 +1,13 @@
+This software is under The BSD 2-Clause License.
+This software is based on init-gmouse (libgmouse) from Marisa-Chan https://github.com/Marisa-Chan/init-gmouse
+
+The Program is designed only for G-series. Support for other mice like X7-series is incomplete, but some functions may work.
+If you have an "oscar" mouse please use wireshark and virtualbox with windows to capture and compare bytes that are sent by original program.
+
+I'm only rewrite Makefile to cmake.
+
+######################################################################################################
+If you have trable with QA4Mouse with library not found  exception you need add path to this library into ld path.
+
+On Ubuntu:
+If you have libgmouse in /usr/local/lib you need create file in /etc/ld.so.conf.d/ and add into file /usr/local/lib
